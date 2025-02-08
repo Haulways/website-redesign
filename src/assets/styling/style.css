@@ -1,0 +1,163 @@
+:root{
+    --primary-green: #159B48;
+    --inactive-grey: #737373;
+    --linear-gradient: linear-gradient(86.86deg, #249D49 0%, #00742F 53%, #13893C 106.85%);
+    --navbarHeight: 80px;
+}
+@font-face {
+    font-display: swap;
+    font-family: "outfit";
+    font-style: normal;
+    font-weight: 400; /* Regular */
+    src: url("../fonts/Outfit-Regular.ttf") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "outfit";
+    font-style: normal;
+    font-weight: 500; /* Medium */
+    src: url("../fonts/Outfit-Medium.ttf") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "outfit";
+    font-style: normal;
+    font-weight: 700; /* Bold */
+    src: url("../fonts/Outfit-Bold.ttf") format("woff");
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "outfit", sans-serif;
+    font-weight: 400;
+    background: var(--Primary-black, #000);
+}
+h3{
+    line-height: 3.3rem;
+}
+.grascope-navbar{
+    background: linear-gradient(111.85deg, rgba(253, 253, 253, 0.3) 5.74%, rgba(253, 253, 253, 0.2) 68.32%);
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 4px 24px -3px #00000033;
+    position: fixed;
+    width: 90%;
+    left: 0;
+    top: 40px;
+    /* width: 100%; */
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50px;
+}
+.bg-primary{
+    background-color: var(--primary-green);
+}
+.color-primary{
+    color: var(--primary-green);
+}
+.bg-gradient1{
+    background: linear-gradient(111.85deg, rgba(253, 253, 253, 0.3) 5.74%, rgba(253, 253, 253, 0.2) 68.32%);
+    --webkit-backdrop-filter: blur(40px) box-shadow: 0px 4px 24px -3px #00000033;
+}
+.radial-gradient1{
+    background: radial-gradient(50% 50% at 50% 50%, #249D49 0%, #119B49 100%);
+    filter: blur(270px);
+    width: 384px;
+    height: 384px;
+    right: -230px;
+    top: 50%;
+    position: absolute;
+}
+.radial-gradient2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: visible;
+}
+.color-grey-inactive{
+    color: var(--inactive-grey);
+}
+.bdr-color{
+    border-top: 0.5px solid transparent;
+    border-image-source: radial-gradient(50% 50% at 50% 47.49%, rgba(245, 245, 245, 0.5) 12.5%, rgba(211, 211, 211, 0.5) 91.5%);
+    border-image-slice: 1;
+}
+.bg-linear{
+    background: var(--linear-gradient);
+}
+.color-linear{
+    background: linear-gradient(86.86deg, #249D49 0%, #00742F 53%, #13893C 106.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.xui-btn, .xui-btn-block {
+    padding: 1.2em 1.5em !important;
+}
+.xui-navbar .links .main ul li a{
+    color: #FFF;
+    font-weight: 400;
+}
+.xui-navbar .links ul li a.active-link{
+    font-weight: 600;
+}
+.footer-input-email-holder{
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    padding-left: 16px;
+    /* padding-right: 12px; */
+    display: flex;
+    min-width: 160px;
+    line-height: 20px;
+    color: var(--fgColor-default,var(--color-fg-default,#000));
+    vertical-align: middle;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 1.5rem;
+    outline: none;
+    box-shadow: var(--shadow-inset,var(--color-primer-shadow-inset,0 0 transparent));
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    min-height: 32px;
+    overflow: hidden;
+}
+.footer-input-email-holder span{
+    align-self: center;
+    color: var(--fgColor-muted,var(--color-fg-muted,#848d97));
+    flex-shrink: 0;
+    margin-right: 8px;
+    display: flex;
+}
+.footer-input-email-holder input{
+    margin-right: 8px;
+    border: 0px;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent;
+    appearance: none;
+    color: inherit;
+    width: 100%;
+    outline: none;
+}
+.footer-input-email-holder .footer-input-email-btn{
+    width: 220px;
+    height: 40px;
+    background-color: var(--primary-green);
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1024px){
+    
+}
