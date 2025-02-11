@@ -16,7 +16,7 @@ const BuildWithUs = () => {
                             <p className='xui-font-sz-100 xui-lg-w-fluid-95 xui-w-fluid-100 xui-line-height-1-half xui-mt-2'>We’re more than just a service provider; we’re your strategic partner in growth. Whether you need outsourcing solutions, IT services, or coworking spaces, we work with you every step of the way to build a brighter future.</p>
                         </div>
                         <div className='xui-mt-6'>
-                            <GreenHeader text='Why Build With Us' fontSize={'xui-font-sz-95'} />
+                            <GreenHeader text='Why Build With Us' fontSize={'xui-font-sz-100'} />
                             <ul className='xui-pl-1-half xui-mt-2'>
                                 <li className='xui-font-sz-100 xui-lg-w-fluid-95 xui-w-fluid-100 xui-line-height-1-half'><span className='xui-font-w-600'>Collaboration:</span> We work hand-in-hand with you to deliver bespoke solutions aligned with your objectives.</li>
                                 <li className='xui-font-sz-100 xui-lg-w-fluid-95 xui-w-fluid-100 xui-line-height-1-half xui-mt-half'><span className='xui-font-w-600'>Reliability:</span> Our unwavering commitment ensures you receive top-notch services delivered on time, every time.</li>

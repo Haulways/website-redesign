@@ -98,60 +98,60 @@ const Footer = () => {
                 </div>
                 <form onSubmit={handleSubmit(sendEmail)} autoComplete="off" noValidate>
                     <div>
-                        <p className='xui-mt-1 xui-lg-font-sz-100 xui-font-sz-95 '>Subscribe To Our Newsletter</p>
+                        <p className='xui-mt-1 xui-lg-font-sz-100 xui-font-sz-100 '>Subscribe To Our Newsletter</p>
                         <div className="footer-input-email-holder main-footer-input xui-mt-1">
                             <input {...register('email', {required: 'Please enter your email',pattern: {value: /^\S+@\S+$/i,message: 'Invalid email address'}})} type="email" name="email" id="email" placeholder="Your email address"/>
-                            <button type="submit" disabled={isDisabled} className="footer-input-email-btn xui-text-dc-none xui-font-sz-95 xui-mobile-font-sz-65 xui-m-half">{isDisabled ? 'Granting access...' : 'Subscribe'}</button>
+                            <button type="submit" disabled={isDisabled} className="footer-input-email-btn xui-text-dc-none xui-font-sz-100 xui-mobile-font-sz-65 xui-m-half">{isDisabled ? 'Granting access...' : 'Subscribe'}</button>
                         </div>
                     </div>
                 </form>
             </div>
             <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-space-between xui-mt-4'>
                 <div className=''>
-                    <p className='xui-lg-font-sz-100 xui-font-sz-95 xui-font-w-600'>QUICK LINKS</p>
-                    <p className='xui-lg-font-sz-95 xui-font-sz-65  xui-mt-1'>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>QUICK LINKS</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-65  xui-mt-1'>
                     <Link to='/' className='xui-mr-half xui-text-dc-none xui-text-white'>Home</Link> 
                     <span className='color-primary'>/</span>
                      <Link to='about' className='xui-mx-half xui-text-dc-none xui-text-white'>About us</Link>
                      <span className='color-primary'>/</span>
-                     <Link to='it/services' className='xui-mx-half xui-text-dc-none xui-text-white'>Company</Link>
+                     <Link to='company' className='xui-mx-half xui-text-dc-none xui-text-white'>Company</Link>
                      <span className='color-primary'>/</span>
-                     <Link to='bpo/solutions' className='xui-mx-half xui-text-dc-none xui-text-white'>Co-Workspace</Link>
+                     <Link to='co-workspace' className='xui-mx-half xui-text-dc-none xui-text-white'>Co-Workspace</Link>
                      </p>
                 </div>
                 <div className=''>
-                    <p className='xui-lg-font-sz-100 xui-font-sz-95 xui-font-w-600'>CONTACT US</p>
-                    <p className='xui-lg-font-sz-95 xui-font-sz-65  xui-mt-1'><span className='xui-mr-half'>contact@grascope.com</span> <span className='color-primary'>/</span> <span className='xui-mx-half'>+234 818 293 1756 </span> <span className='color-primary'>/</span> <span className='xui-ml-half'>+44 7441359374</span></p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>CONTACT US</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-65  xui-mt-1'><span className='xui-mr-half'>contact@grascope.com</span> <span className='color-primary'>/</span> <span className='xui-mx-half'>+234 818 293 1756 </span> <span className='color-primary'>/</span> <span className='xui-ml-half'>+44 7441359374</span></p>
                 </div>
             </div>
             {/* <div className='xui-row xui-mt-4'>
                 <div className='xui-lg-col-6 xui-col-12'>
-                    <p className='xui-lg-font-sz-100 xui-font-sz-95 xui-font-w-600'>CONTACT US</p>
-                    <p className='xui-lg-font-sz-95 xui-font-sz-65  xui-mt-1'><span className='xui-mr-half'>contact@grascope.com</span> <span className='color-primary'>/</span> <span className='xui-mx-half'>+234 818 293 1756 </span> <span className='color-primary'>/</span> <span className='xui-ml-half'>+44 7441359374</span></p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>CONTACT US</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-65  xui-mt-1'><span className='xui-mr-half'>contact@grascope.com</span> <span className='color-primary'>/</span> <span className='xui-mx-half'>+234 818 293 1756 </span> <span className='color-primary'>/</span> <span className='xui-ml-half'>+44 7441359374</span></p>
                 </div>
                 <div className='xui-lg-col-6 xui-col-12 xui-lg-mt-none xui-mt-4'>
-                    <p className='xui-lg-font-sz-100 xui-font-sz-95 xui-font-w-600'>ADDRESS</p>
-                    <p className='xui-lg-font-sz-95 xui-font-sz-65  xui-mt-1 xui-line-height-1-half'>4, Iwowari Avenue, George Sekibo Road, Sasun Roundabout, Off Peter Odili Road, PortHarcourt, Nigeria.</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>ADDRESS</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-65  xui-mt-1 xui-line-height-1-half'>4, Iwowari Avenue, George Sekibo Road, Sasun Roundabout, Off Peter Odili Road, PortHarcourt, Nigeria.</p>
                 </div>
             </div> */}
             <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-space-between xui-mt-4'>
                 <div className='xui-lg-mt-none xui-mt-4'>
-                    <p className='xui-lg-font-sz-100 xui-font-sz-95 xui-font-w-600'>ADDRESS</p>
-                    <p className='xui-lg-font-sz-95 xui-font-sz-65 xui-lg-w-fluid-80 xui-w-fluid-100 xui-mt-1 xui-line-height-1-half'>4, Iwowari Avenue, George Sekibo Road, Sasun Roundabout, Off Peter Odili Road, PortHarcourt, Nigeria.</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>ADDRESS</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-65 xui-lg-w-fluid-80 xui-w-fluid-100 xui-mt-1 xui-line-height-1-half'>4, Iwowari Avenue, George Sekibo Road, Sasun Roundabout, Off Peter Odili Road, PortHarcourt, Nigeria.</p>
                 </div>
 
                 <div className='xui-lg-mt-none xui-mt-4'>
-                    <p className='xui-lg-font-sz-100 xui-font-sz-95 xui-font-w-600'>FOLLOW US</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>FOLLOW US</p>
                     <div className='xui-d-flex xui-flex-ai-center xui-grid-gap-1 xui-mt-1'>
-                        <Link to='https://www.instagram.com/grascopeindustries?igsh=YjVtcHg4czRmOHFu'><InstagramIcon /></Link>
-                        <Link to='https://www.linkedin.com/company/grascope-industries-ltd/'><LinkedInIcon /></Link>
+                        <Link to='https://www.instagram.com/grascopeindustries?igsh=YjVtcHg4czRmOHFu' target='_blank'><InstagramIcon /></Link>
+                        <Link to='https://www.linkedin.com/company/grascope-industries-ltd/' target='_blank'><LinkedInIcon /></Link>
                     </div>
                 </div>
             </div>
             <div className='xui-d-flex xui-flex-ai-flex-end xui-flex-jc-space-between xui-mt-4'>
                 <div className=''>
-                    <p className='xui-lg-font-sz-100 xui-font-sz-95 xui-font-w-600'>RC NUMBERS</p>
-                    <p className='xui-lg-font-sz-95 xui-font-sz-60  xui-mt-1'>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>RC NUMBERS</p>
+                    <p className='xui-lg-font-sz-100 xui-font-sz-60  xui-mt-1'>
                         <span className='xui-mr-half xui-text-white'>Grascope Industries UK LTD - 15589820  </span> 
                         <span className='color-primary'>/</span>
                         <span to='about' className='xui-mx-half xui-text-white'>Grascope Industries NIG LTD - 1479476  </span>

@@ -1,6 +1,7 @@
 :root{
     --primary-green: #159B48;
     --inactive-grey: #737373;
+    --black-accent: #1E1E1E;
     --linear-gradient: linear-gradient(86.86deg, #249D49 0%, #00742F 53%, #13893C 106.85%);
     --navbarHeight: 80px;
 }
@@ -62,6 +63,13 @@ h3{
     background: linear-gradient(111.85deg, rgba(253, 253, 253, 0.3) 5.74%, rgba(253, 253, 253, 0.2) 68.32%);
     --webkit-backdrop-filter: blur(40px) box-shadow: 0px 4px 24px -3px #00000033;
 }
+.bg-gradient2{
+    background: linear-gradient(111.85deg, rgba(253, 253, 253, 0.3) 5.74%, rgba(253, 253, 253, 0.2) 68.32%);
+    --webkit-backdrop-filter: blur(40px) box-shadow: 0px 4px 24px -3px #00000033;
+}
+.linear-gradient1{
+    background: linear-gradient(180deg, rgba(36, 157, 73, 0.8) 0%, rgba(17, 155, 73, 0.8) 100%);
+}
 .radial-gradient1{
     background: radial-gradient(50% 50% at 50% 50%, #249D49 0%, #119B49 100%);
     filter: blur(270px);
@@ -70,6 +78,12 @@ h3{
     right: -230px;
     top: 50%;
     position: absolute;
+}
+.xui-flex-ai-self-end{
+    align-items: self-end;
+}
+.xui-flex-ai-self-start{
+    align-items: self-start;
 }
 .radial-gradient2{
     position: absolute;
@@ -83,6 +97,11 @@ h3{
 }
 .bdr-color{
     border-top: 0.5px solid transparent;
+    border-image-source: radial-gradient(50% 50% at 50% 47.49%, rgba(245, 245, 245, 0.5) 12.5%, rgba(211, 211, 211, 0.5) 91.5%);
+    border-image-slice: 1;
+}
+.bdr-bottom-color{
+    border-bottom: 0.5px solid transparent;
     border-image-source: radial-gradient(50% 50% at 50% 47.49%, rgba(245, 245, 245, 0.5) 12.5%, rgba(211, 211, 211, 0.5) 91.5%);
     border-image-slice: 1;
 }
@@ -156,6 +175,45 @@ h3{
     border-radius: 1rem;
     border: none;
     outline: none;
+}
+
+label{
+    position:relative;
+    display: block;
+    height: 100%;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1) brightness(45%);
+}  
+  
+input, select{
+    width:100%;
+    height: 70px;
+    padding:10px 10px;
+    /* margin-top:20px; */
+    border:none;
+    outline:none;
+    background-color: var(--black-accent);
+    color: #FFF;
+    border-radius: .5rem;
+}
+input::placeholder{
+    opacity:0;
+}
+.book-section span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    /* transform: translateY(30px); */
+    transition-duration: 300ms;
+    color: var(--inactive-grey);
+    font-weight: 500;
+}
+
+label:focus-within > span,
+input:not(:placeholder-shown) + span{
+    transform:translateY(-58px);
 }
 
 @media screen and (max-width: 1024px){

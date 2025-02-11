@@ -21,10 +21,10 @@ export default function Navbar(){
                             <NavLink className={({ isActive }) => isActive ? 'active-link xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400' : 'xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400'} to={"about"}>About us</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'active-link xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400' : 'xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400'} to={"services"}>Company</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'active-link xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400' : 'xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400'} to={"company"}>Company</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'active-link xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400' : 'xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400'} to={"contact"}>Co-workspace</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'active-link xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400' : 'xui-font-sz-120 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-400'} to={"co-workspace"}>Co-workspace</NavLink>
                         </li>
                      
                     </ul>
@@ -33,7 +33,7 @@ export default function Navbar(){
                     <ul>
                         <li>
                             <Link className='xui-btn xui-bdr-rad-2 xui-bg-white color-primary'>Signin</Link>
-                            <Link className='xui-btn xui-bdr-rad-2 bg-primary xui-text-white xui-ml-1'>Contact us</Link>
+                            <Link to={'contact'} className='xui-btn xui-bdr-rad-2 bg-primary xui-text-white xui-ml-1'>Contact us</Link>
                         </li>
                     </ul>
                 </div>
