@@ -1,7 +1,7 @@
 import React from 'react';
-import BookSpace from '../../assets/images/co-workspace/book-space.png';
 import Star from '../../assets/custom-icons/Star';
 import { useForm } from 'react-hook-form';
+import RightArrow from '../../assets/custom-icons/RightArrow';
 
 const Book = () => {
     const {register, control, handleSubmit, formState: { errors }, watch} = useForm();
@@ -64,7 +64,10 @@ const Book = () => {
                             </div>
                             
                         </div>
-                        <button className='xui-btn xui-ml--3 xui-mt-1-half'><img src={BookSpace} alt="" /></button>
+                        <button className='gradient-btn xui-d-inline-flex xui-flex-ai-center xui-grid-gap-1-half xui-mt-2 xui-mx-auto'>
+                            <p className='xui-font-sz-100'>Book a Space</p>
+                            <RightArrow />
+                        </button>
                     </form>
                 </div>
             </section>

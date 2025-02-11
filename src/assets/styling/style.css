@@ -177,16 +177,16 @@ h3{
     outline: none;
 }
 
-label{
+.book-section label{
     position:relative;
     display: block;
     height: 100%;
 }
-input[type="date"]::-webkit-calendar-picker-indicator {
+.book-section input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(1) brightness(45%);
 }  
   
-input, select{
+.book-section input, .book-section select{
     width:100%;
     height: 70px;
     padding:10px 10px;
@@ -197,7 +197,7 @@ input, select{
     color: #FFF;
     border-radius: .5rem;
 }
-input::placeholder{
+.book-section input::placeholder{
     opacity:0;
 }
 .book-section span{
@@ -214,6 +214,76 @@ input::placeholder{
 label:focus-within > span,
 input:not(:placeholder-shown) + span{
     transform:translateY(-58px);
+}
+.capability{
+    max-height: 400px;
+    min-height: 300px;
+}
+.capability:nth-child(3){
+    margin-top: -0.59rem;
+    margin-right: -0.8rem;
+}
+.capability:nth-child(6){
+    margin-top: -0.69rem;
+    margin-left: 0.1rem;
+}
+.capability:nth-child(7){
+    margin-top: -0.59rem;
+    margin-right: -0.98rem;
+}
+.gradient-btn{
+    position: relative;
+    /* width: 194px; */
+    padding: 0.6rem 0.6rem 0.6rem 1.2rem;
+    border: none;
+    /* height: 60px; */
+    background: linear-gradient(111.85deg, rgba(253, 253, 253, 0.3) 5.74%, rgba(253, 253, 253, 0.2) 68.32%);
+    box-shadow: 0px 4px 24px -3px rgb(0 0 0 / 20%);
+    backdrop-filter: blur(20px);
+    border-radius: 2rem;
+    color: #FFF;
+}
+.gradient-btn::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #159B48;
+    mix-blend-mode: overlay;
+    opacity: 0.2;
+    border-radius: 2rem;
+}
+.gallery-gradient{
+    position: absolute;
+    bottom: 25px;
+    width: 90%;
+    padding: 1rem;
+    left: 0;
+    background: linear-gradient(111.85deg, rgba(253, 253, 253, 0.24) 5.74%, rgba(253, 253, 253, 0.16) 68.32%);
+    box-shadow: 0px 5.37143px 32.2286px -4.02857px rgb(0 0 0 / 20%);
+    backdrop-filter: blur(26.8571px);
+    border-radius: 0px 10.7429px 10.7429px 0px;
+}
+.gallery-gradient h3{
+    margin: 0;
+    line-height: normal;
+}
+.gallery-gradient::before{
+    /* Rectangle 2 */
+
+position: absolute;
+content: "";
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background: rgba(255, 255, 255, 0.8);
+mix-blend-mode: overlay;
+opacity: 0.2;
+border-radius: 0px 10.7429px 10.7429px 0px;
+
 }
 
 @media screen and (max-width: 1024px){

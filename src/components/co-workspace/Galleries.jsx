@@ -16,19 +16,32 @@ const Galleries = () => {
                     <p className='xui-font-sz-100 xui-line-height-1-half xui-lg-w-fluid-95 xui-w-fluid-100'>Step into a vibrant space designed for collaboration and creativity, featuring flexible work areas, modern amenities, and a community built for growth.</p>
                 </div>
                 <div className='xui-bg-sz-cover xui-h-500 xui-bg-pos-center xui-bdr-rad-half xui-pos-relative' style={{backgroundImage: `url('${Workspace}')`}}>
-                    <img src={GalleryDesc1} alt="" className='xui-pos-absolute xui-img-400' style={{"bottom": '10px', "left": '-25px'}} />
+                    {/* <img src={GalleryDesc1} alt="" className='xui-pos-absolute xui-img-400' style={{"bottom": '10px', "left": '-25px'}} /> */}
+                    <div className='gallery-gradient'>
+                        <h3 className='xui-font-sz-120 xui-font-w-500'>24/7 Access</h3>
+                        <p className='xui-font-sz-100 xui-mt-half'>Work anytime, your way.</p>
+                    </div>
                 </div>
                 <div className='xui-bg-sz-cover xui-h-500 xui-bg-pos-center xui-bdr-rad-half xui-pos-relative' style={{backgroundImage: `url('${Workspace}')`}}>
-                    <img src={GalleryDesc2} alt="" className='xui-pos-absolute xui-img-400' style={{"bottom": '10px', "left": '-25px'}} />
+                    <div className='gallery-gradient'>
+                        <h3 className='xui-font-sz-120 xui-font-w-500'>Kitchen Area</h3>
+                        <p className='xui-font-sz-100 xui-mt-half'>Refuel, unwind and connect.</p>
+                    </div>
                 </div>
             </div>
             <img src={Workspace} alt="" className='xui-w-fluid-100 xui-bdr-rad-1 xui-mt-2' />
             <div className='xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-1 xui-mt-2'>
                 <div className='xui-bg-sz-cover xui-h-500 xui-bg-pos-center xui-bdr-rad-half xui-pos-relative' style={{backgroundImage: `url('${Workspace}')`}}>
-                    <img src={GalleryDesc3} alt="" className='xui-pos-absolute xui-img-400' style={{"bottom": '10px', "left": '-25px'}} />
+                    <div className='gallery-gradient'>
+                        <h3 className='xui-font-sz-120 xui-font-w-500'>Solar Powered Space</h3>
+                        <p className='xui-font-sz-100 xui-mt-half'>Sustainable energy for your workspace.</p>
+                    </div>
                 </div>
                 <div className='xui-bg-sz-cover xui-h-500 xui-bg-pos-center xui-bdr-rad-half xui-pos-relative' style={{backgroundImage: `url('${Workspace}')`}}>
-                    <img src={GalleryDesc4} alt="" className='xui-pos-absolute xui-img-400' style={{"bottom": '10px', "left": '-25px'}} />
+                    <div className='gallery-gradient'>
+                        <h3 className='xui-font-sz-120 xui-font-w-500'>High-Speed Internet</h3>
+                        <p className='xui-font-sz-100 xui-mt-half'>Available Fibre optics and Starlink access.</p>
+                    </div>
                 </div>
                 <div className='xui-h-500 xui-d-flex xui-flex-dir-column xui-flex-jc-space-between xui-p-2 linear-gradient1 xui-text-white xui-bdr-rad-half'>
                     <div>

@@ -13,6 +13,8 @@ import { useForm } from "react-hook-form";
 import InstagramIcon from '../assets/custom-icons/InstagramIcon';
 import LinkedIn from '../assets/custom-icons/LinkedIn';
 import LinkedInIcon from '../assets/custom-icons/LinkedInIcon';
+import FacebookIcon from '../assets/custom-icons/FacebookIcon';
+import XIcon from '../assets/custom-icons/XIcon';
 // import ThankYouModal from "./ThankYouModal";
 // import confetti from "canvas-confetti";
 // import InstagramIcon from './custom-svg-icons/InstagramIcon';
@@ -89,7 +91,7 @@ const Footer = () => {
     return (
         <>
         <section className="main-footer xui-text-white xui-lg-py-3 xui-py-1 xui-container">
-            <div className='xui-d-grid xui-lg-grid-col-2 xui-grid-col-1 xui-grid-gap-1 xui-flex-ai-flex-end'>
+            <div className='xui-d-flex xui-flex-jc-space-between xui-flex-ai-flex-end'>
                 <div>
                     {/* <h1 className='haulway-heading-text xui-line-height-2-half xui-lg-font-sz-300 xui-font-sz-180 '>
                         <p>PARTNER <span className='color-primary'>WITH</span></p> <p><span className='color-primary'>GRASCOPE</span> TODAY</p>
@@ -143,6 +145,8 @@ const Footer = () => {
                 <div className='xui-lg-mt-none xui-mt-4'>
                     <p className='xui-lg-font-sz-100 xui-font-sz-100 xui-font-w-600'>FOLLOW US</p>
                     <div className='xui-d-flex xui-flex-ai-center xui-grid-gap-1 xui-mt-1'>
+                        <Link to='https://x.com/grascopeHQ' target='_blank'><XIcon /></Link>
+                        <Link to='https://web.facebook.com/profile.php?id=61558476219265' target='_blank'><FacebookIcon /></Link>
                         <Link to='https://www.instagram.com/grascopeindustries?igsh=YjVtcHg4czRmOHFu' target='_blank'><InstagramIcon /></Link>
                         <Link to='https://www.linkedin.com/company/grascope-industries-ltd/' target='_blank'><LinkedInIcon /></Link>
                     </div>
@@ -158,7 +162,7 @@ const Footer = () => {
                      
                      </p>
                 </div>
-                <p className='xui-lg-mt-none xui-mt-2 xui-lg-col-4 xui-col-12 xui-lg-font-sz-100 xui-font-sz-60  xui-d-inline-flex xui-flex-ai-center xui-lg-flex-jcflex-start xui-flex-jc-center xui-grid-gap-half'>&copy; 2024 Powered by <Link className='xui-d-inline-block' to='https://www.grascope.com/' target='_blank'><img className='xui-img-80' src={Logo} alt="" /></Link>- All right reserved</p>
+                <p className='xui-lg-mt-none xui-mt-2 xui-lg-col-4 xui-col-12 xui-lg-font-sz-100 xui-font-sz-60  xui-d-inline-flex xui-flex-ai-center xui-lg-flex-jcflex-start xui-flex-jc-center xui-grid-gap-half'>&copy; 2025 Powered by <Link className='xui-d-inline-block' to='https://www.grascope.com/' target='_blank'><img className='xui-img-80' src={Logo} alt="" /></Link>- All right reserved</p>
             </div>
 
         </section>

@@ -15,25 +15,25 @@ const Story = () => {
                         <div onClick={() => handleTabClick(0)} className={'xui-d-inline-flex xui-cursor-pointer xui-flex-ai-self-end xui-grid-gap-1 xui-pb-1-half bdr-bottom-color ' + (activeTab === 0 ? 'xui-text-white' : 'color-grey-inactive')}>
                             <span className='xui-font-sz-150 xui-font-w-500'>01.</span>
                             <div>
-                                <h3 className='xui-font-sz-300 xui-mt-half xui-font-w-500'>Our Story</h3>
+                                <h3 className='xui-font-sz-300 xui-m-none xui-font-w-500'>Our Story</h3>
                             </div>
                         </div>
-                        <div onClick={() => handleTabClick(1)} className={'xui-d-inline-flex xui-cursor-pointer xui-flex-ai-self-end xui-grid-gap-1 xui-pb-1-half bdr-bottom-color ' + (activeTab === 1 ? 'xui-text-white' : 'color-grey-inactive')}>
+                        <div onClick={() => handleTabClick(1)} className={'xui-d-inline-flex xui-cursor-pointer xui-flex-ai-self-end xui-grid-gap-1 xui-py-1-half bdr-bottom-color ' + (activeTab === 1 ? 'xui-text-white' : 'color-grey-inactive')}>
                             <span className='xui-font-sz-150 xui-font-w-500'>02.</span>
                             <div>
-                                <h3 className='xui-font-sz-300 xui-mt-half xui-font-w-500'>Our Mission</h3>
+                                <h3 className='xui-font-sz-300 xui-m-none xui-font-w-500'>Our Mission</h3>
                             </div>
                         </div>
-                        <div onClick={() => handleTabClick(2)} className={'xui-d-inline-flex xui-cursor-pointer xui-flex-ai-self-end xui-grid-gap-1 xui-pb-1-half bdr-bottom-color ' + (activeTab === 2 ? 'xui-text-white' : 'color-grey-inactive')}>
+                        <div onClick={() => handleTabClick(2)} className={'xui-d-inline-flex xui-cursor-pointer xui-flex-ai-self-end xui-grid-gap-1 xui-py-1-half bdr-bottom-color ' + (activeTab === 2 ? 'xui-text-white' : 'color-grey-inactive')}>
                             <span className='xui-font-sz-150 xui-font-w-500'>03.</span>
                             <div>
-                                <h3 className='xui-font-sz-300 xui-mt-half xui-font-w-500'>Our Identity</h3>
+                                <h3 className='xui-font-sz-300 xui-m-none xui-font-w-500'>Our Identity</h3>
                             </div>
                         </div>
-                        <div onClick={() => handleTabClick(3)} className={'xui-d-inline-flex xui-cursor-pointer xui-flex-ai-self-end xui-grid-gap-1 xui-pb-1-half bdr-bottom-color ' + (activeTab === 3 ? 'xui-text-white' : 'color-grey-inactive')}>
+                        <div onClick={() => handleTabClick(3)} className={'xui-d-inline-flex xui-cursor-pointer xui-flex-ai-self-end xui-grid-gap-1 xui-py-1-half bdr-bottom-color ' + (activeTab === 3 ? 'xui-text-white' : 'color-grey-inactive')}>
                             <span className='xui-font-sz-150 xui-font-w-500'>04.</span>
                             <div>
-                                <h3 className='xui-font-sz-300 xui-mt-half xui-font-w-500'>Our Approach</h3>
+                                <h3 className='xui-font-sz-300 xui-m-none xui-font-w-500'>Our Approach</h3>
                             </div>
                         </div>
                     </div>

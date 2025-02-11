@@ -4,9 +4,7 @@ import Haulway from "../../assets/images/company/haulway.png";
 import Sunflower from "../../assets/images/company/sunflower.png";
 import Begorah from "../../assets/images/company/begorah.png";
 import { Link } from 'react-router-dom';
-import Learnmore from "../../assets/images/company/learn-more.png";
-import ExploreHaulway from "../../assets/images/company/explore-haulway.png";
-import DiscoverSunflowerPantry from "../../assets/images/company/discover-sunflower-pantry.png";
+import RightArrow from '../../assets/custom-icons/RightArrow';
 
 const SpecializedSubsidiary = () => {
     return (
@@ -17,7 +15,7 @@ const SpecializedSubsidiary = () => {
                     <div className={'xui-d-inline-flex xui-flex-ai-self-start xui-grid-gap-1 '}>
                         <span className='xui-font-sz-110 xui-font-w-400'>01.</span>
                         <div>
-                            <h3 className='xui-font-sz-160 xui-mt-half xui-font-w-500 xui-text-uppercase'>Grascope BPO</h3>
+                            <h3 className='xui-font-sz-160 xui-m-none xui-font-w-500 xui-text-uppercase'>Grascope BPO</h3>
                         </div>
                     </div>
                 </div>
@@ -37,8 +35,9 @@ const SpecializedSubsidiary = () => {
                             </div>
                             <h3 className='xui-font-sz-120 xui-mt-1-half xui-font-w-500'>Companies Under Grascope BPO</h3>
                             <p className='xui-font-sz-90 xui-line-height-1-half xui-lg-w-fluid-95 xui-w-fluid-100'>Grascope BDO: An international recruitment solutions that connect businesses globally with top-tier talents in West Africa.</p>
-                            <Link to='/' className='xui-d-inline-block xui-mt-half'>
-                                <img src={Learnmore} alt="" className='xui-img-250 xui-ml--1' />
+                            <Link to={'/'} target='_blank' className='gradient-btn xui-text-dc-none xui-d-inline-flex xui-flex-ai-center xui-grid-gap-1-half xui-mt-1 xui-mx-auto'>
+                                <p className='xui-font-sz-100'>Learn More</p>
+                                <RightArrow />
                             </Link>
                         </div>
                     </div>
@@ -49,7 +48,7 @@ const SpecializedSubsidiary = () => {
                     <div className={'xui-d-inline-flex xui-flex-ai-self-start xui-grid-gap-1 '}>
                         <span className='xui-font-sz-110 xui-font-w-400'>02.</span>
                         <div>
-                            <h3 className='xui-font-sz-160 xui-mt-half xui-font-w-500 xui-text-uppercase'>Haulway</h3>
+                            <h3 className='xui-font-sz-160 xui-m-none xui-font-w-500 xui-text-uppercase'>Haulway</h3>
                         </div>
                     </div>
                 </div>
@@ -68,8 +67,9 @@ const SpecializedSubsidiary = () => {
                                 <p className='xui-font-sz-90 xui-line-height-1-half'>Professional Networking</p> |
                                 <p className='xui-font-sz-90 xui-line-height-1-half'>Creative Community Building</p>
                             </div>
-                            <Link to='https://haulway.co/' target='_blank' className='xui-d-inline-block xui-mt-half'>
-                                <img src={ExploreHaulway} alt="" className='xui-ml--1' />
+                            <Link to={'https://haulway.co/'} target='_blank' className='gradient-btn xui-text-dc-none xui-d-inline-flex xui-flex-ai-center xui-grid-gap-1-half xui-mt-1 xui-mx-auto'>
+                                <p className='xui-font-sz-100'>Explore Haulway</p>
+                                <RightArrow />
                             </Link>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const SpecializedSubsidiary = () => {
                     <div className={'xui-d-inline-flex xui-flex-ai-self-start xui-grid-gap-1 '}>
                         <span className='xui-font-sz-110 xui-font-w-400'>03.</span>
                         <div>
-                            <h3 className='xui-font-sz-160 xui-mt-half xui-font-w-500 xui-text-uppercase'>Sunflower Pantry</h3>
+                            <h3 className='xui-font-sz-160 xui-m-none xui-font-w-500 xui-text-uppercase'>Sunflower Pantry</h3>
                         </div>
                     </div>
                 </div>
@@ -98,8 +98,9 @@ const SpecializedSubsidiary = () => {
                                 <p className='xui-font-sz-90 xui-line-height-1-half'>Finished Food Products</p> |
                                 <p className='xui-font-sz-90 xui-line-height-1-half'>Sustainable Farming Practices</p>
                             </div>
-                            <Link to='/' className='xui-d-inline-block xui-mt-half'>
-                                <img src={DiscoverSunflowerPantry} alt="" className='xui-ml--1' />
+                            <Link to={'/'} target='_blank' className='gradient-btn xui-text-dc-none xui-d-inline-flex xui-flex-ai-center xui-grid-gap-1-half xui-mt-1 xui-mx-auto'>
+                                <p className='xui-font-sz-100'>Discover Sunflower Pantry</p>
+                                <RightArrow />
                             </Link>
                         </div>
                     </div>
@@ -110,7 +111,7 @@ const SpecializedSubsidiary = () => {
                     <div className={'xui-d-inline-flex xui-flex-ai-self-start xui-grid-gap-1 '}>
                         <span className='xui-font-sz-110 xui-font-w-400'>04.</span>
                         <div>
-                            <h3 className='xui-font-sz-160 xui-mt-half xui-font-w-500 xui-text-uppercase'>Begorah</h3>
+                            <h3 className='xui-font-sz-160 xui-m-none xui-font-w-500 xui-text-uppercase'>Begorah</h3>
                         </div>
                     </div>
                 </div>
@@ -128,8 +129,9 @@ const SpecializedSubsidiary = () => {
                                 <p className='xui-font-sz-90 xui-line-height-1-half'>Skills Development Solutions</p> |
                                 <p className='xui-font-sz-90 xui-line-height-1-half'>Accessible Education Platforms</p>
                             </div>
-                            <Link to='https://begorah.co.uk/' target='_blank' className='xui-d-inline-block xui-mt-half'>
-                                <img src={Learnmore} alt="" className='xui-img-250 xui-ml--1' />
+                            <Link to={'https://begorah.co.uk/'} target='_blank' className='gradient-btn xui-text-dc-none xui-d-inline-flex xui-flex-ai-center xui-grid-gap-1-half xui-mt-1 xui-mx-auto'>
+                                <p className='xui-font-sz-100'>Learn More</p>
+                                <RightArrow />
                             </Link>
                         </div>
                     </div>
