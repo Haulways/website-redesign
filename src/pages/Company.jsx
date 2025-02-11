@@ -3,6 +3,7 @@ import Header from '../components/company/Header';
 import EcosystemOverview from '../components/company/EcosystemOverview';
 import City from "../assets/images/company/city.jpg"
 import SpecializedSubsidiary from '../components/company/SpecializedSubsidiary';
+import UnifyingPrinciple from '../components/company/UnifyingPrinciple';
 
 const Company = () => {
     return (
@@ -13,6 +14,7 @@ const Company = () => {
                 <img src={City} alt="" className='xui-w-fluid-100 xui-bdr-rad-1' />
             </div>
             <SpecializedSubsidiary />
+            <UnifyingPrinciple />
         </>
     );
 };
