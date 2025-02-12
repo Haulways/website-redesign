@@ -131,7 +131,9 @@ h3{
     padding-left: 16px;
     /* padding-right: 12px; */
     display: flex;
-    min-width: 160px;
+    min-width: 490px;
+    max-width: 490px;
+    width: 100%;
     line-height: 20px;
     color: var(--fgColor-default,var(--color-fg-default,#000));
     vertical-align: middle;
